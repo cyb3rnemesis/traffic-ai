@@ -1,0 +1,29 @@
+/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbilisi Traffic AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚦 Tbilisi Traffic AI</h1>
+        
+        <div class="search-box">
+            <div class="input-group">
+                <label for="query">Ask about traffic:</label>
+                <input type="text" id="query" 
+                    placeholder="How's traffic from Stamba to Viktor Dolidze street?"
+                    autocomplete="off">
+            </div>
+            
+            <button id="searchBtn">Get Route</button>
+        </div>
+
+        <div class="result-box" id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
